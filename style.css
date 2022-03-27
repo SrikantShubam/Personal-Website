@@ -1,0 +1,364 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  overflow: none;
+  width: 100%;
+}
+
+.r-50 {
+  border-radius: 50%;
+  object-fit: cover;
+  max-width: 14rem;
+}
+
+.content {
+  z-index: 1;
+  position: relative;
+  top: -40em;
+}
+
+.custom {
+  width: 10rem;
+  border-radius: 20px;
+  border: solid transparent;
+  text-decoration: none;
+  background-color: blueviolet;
+}
+#main button:hover {
+  background-color: white;
+  color: blueviolet;
+  border: solid transparent;
+  transition: ease;
+}
+
+.path-1 {
+  animation: pathAnim-1 4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes pathAnim-1 {
+  0% {
+    d: path(
+      "M 0,600 C 0,600 0,400 0,400 C 84.58373205741626,370.1913875598086 169.1674641148325,340.38277511961724 250,357 C 330.8325358851675,373.61722488038276 407.9138755980862,436.6602870813397 527,462 C 646.0861244019138,487.3397129186603 807.1770334928228,474.9760765550239 904,447 C 1000.8229665071772,419.0239234449761 1033.3779904306223,375.43540669856463 1112,365 C 1190.6220095693777,354.56459330143537 1315.311004784689,377.2822966507177 1440,400 C 1440,400 1440,600 1440,600 Z"
+    );
+  }
+  25% {
+    d: path(
+      "M 0,600 C 0,600 0,400 0,400 C 128.43062200956936,361.8373205741627 256.8612440191387,323.67464114832535 339,331 C 421.1387559808613,338.32535885167465 456.9856459330143,391.1387559808612 550,395 C 643.0143540669857,398.8612440191388 793.1961722488039,353.77033492822966 899,332 C 1004.8038277511961,310.22966507177034 1066.2296650717703,311.7799043062201 1149,327 C 1231.7703349282297,342.2200956937799 1335.8851674641148,371.11004784689 1440,400 C 1440,400 1440,600 1440,600 Z"
+    );
+  }
+  50% {
+    d: path(
+      "M 0,600 C 0,600 0,400 0,400 C 75.46411483253587,391.6267942583732 150.92822966507174,383.2535885167464 245,399 C 339.07177033492826,414.7464114832536 451.7511961722488,454.61244019138746 543,466 C 634.2488038277512,477.38755980861254 704.066985645933,460.2966507177034 814,459 C 923.933014354067,457.7033492822966 1073.9808612440193,472.20095693779905 1185,465 C 1296.0191387559807,457.79904306220095 1368.0095693779904,428.8995215311005 1440,400 C 1440,400 1440,600 1440,600 Z"
+    );
+  }
+  75% {
+    d: path(
+      "M 0,600 C 0,600 0,400 0,400 C 89.67464114832538,354.25837320574163 179.34928229665076,308.51674641148327 290,331 C 400.65071770334924,353.48325358851673 532.2775119617224,444.1913875598086 624,472 C 715.7224880382776,499.8086124401914 767.5406698564593,464.7177033492823 842,433 C 916.4593301435407,401.2822966507177 1013.5598086124401,372.9377990430622 1117,368 C 1220.44019138756,363.0622009569378 1330.22009569378,381.5311004784689 1440,400 C 1440,400 1440,600 1440,600 Z"
+    );
+  }
+  100% {
+    d: path(
+      "M 0,600 C 0,600 0,400 0,400 C 84.58373205741626,370.1913875598086 169.1674641148325,340.38277511961724 250,357 C 330.8325358851675,373.61722488038276 407.9138755980862,436.6602870813397 527,462 C 646.0861244019138,487.3397129186603 807.1770334928228,474.9760765550239 904,447 C 1000.8229665071772,419.0239234449761 1033.3779904306223,375.43540669856463 1112,365 C 1190.6220095693777,354.56459330143537 1315.311004784689,377.2822966507177 1440,400 C 1440,400 1440,600 1440,600 Z"
+    );
+  }
+}
+
+.path-0 {
+  animation: pathAnim-0 4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes pathAnim-0 {
+  0% {
+    d: path(
+      "M 0,600 C 0,600 0,200 0,200 C 92.78468899521528,244.83253588516746 185.56937799043055,289.6650717703349 285,268 C 384.43062200956945,246.33492822966508 490.5071770334929,158.17224880382776 599,139 C 707.4928229665071,119.82775119617224 818.401913875598,169.64593301435406 900,204 C 981.598086124402,238.35406698564594 1033.885167464115,257.244019138756 1119,254 C 1204.114832535885,250.755980861244 1322.0574162679425,225.377990430622 1440,200 C 1440,200 1440,600 1440,600 Z"
+    );
+  }
+  25% {
+    d: path(
+      "M 0,600 C 0,600 0,200 0,200 C 86.73684210526315,205.7799043062201 173.4736842105263,211.5598086124402 258,214 C 342.5263157894737,216.4401913875598 424.8421052631579,215.54066985645932 537,220 C 649.1578947368421,224.45933014354068 791.1578947368421,234.2775119617225 895,244 C 998.8421052631579,253.7224880382775 1064.5263157894738,263.3492822966507 1149,256 C 1233.4736842105262,248.65071770334927 1336.7368421052631,224.32535885167465 1440,200 C 1440,200 1440,600 1440,600 Z"
+    );
+  }
+  50% {
+    d: path(
+      "M 0,600 C 0,600 0,200 0,200 C 87.76076555023923,214.19138755980862 175.52153110047846,228.38277511961724 263,245 C 350.47846889952154,261.61722488038276 437.67464114832535,280.6602870813397 556,247 C 674.3253588516747,213.3397129186603 823.77990430622,126.97607655502394 914,127 C 1004.22009569378,127.02392344497606 1035.2057416267942,213.43540669856458 1113,240 C 1190.7942583732058,266.5645933014354 1315.3971291866028,233.2822966507177 1440,200 C 1440,200 1440,600 1440,600 Z"
+    );
+  }
+  75% {
+    d: path(
+      "M 0,600 C 0,600 0,200 0,200 C 81.91387559808612,171.70334928229664 163.82775119617224,143.4066985645933 262,144 C 360.17224880382776,144.5933014354067 474.6028708133971,174.07655502392342 574,204 C 673.3971291866029,233.92344497607658 757.7607655502394,264.2870813397129 851,273 C 944.2392344497606,281.7129186602871 1046.3540669856459,268.77511961722485 1146,253 C 1245.6459330143541,237.22488038277513 1342.8229665071772,218.61244019138758 1440,200 C 1440,200 1440,600 1440,600 Z"
+    );
+  }
+  100% {
+    d: path(
+      "M 0,600 C 0,600 0,200 0,200 C 92.78468899521528,244.83253588516746 185.56937799043055,289.6650717703349 285,268 C 384.43062200956945,246.33492822966508 490.5071770334929,158.17224880382776 599,139 C 707.4928229665071,119.82775119617224 818.401913875598,169.64593301435406 900,204 C 981.598086124402,238.35406698564594 1033.885167464115,257.244019138756 1119,254 C 1204.114832535885,250.755980861244 1322.0574162679425,225.377990430622 1440,200 C 1440,200 1440,600 1440,600 Z"
+    );
+  }
+}
+.object {
+  animation: MoveUpDown 1s linear infinite;
+  position: absolute;
+  top: 14em;
+  left: 0;
+  bottom: 0;
+  color: rgb(73, 73, 73);
+  
+}
+.object:hover {
+  animation-play-state: paused;
+}
+
+@keyframes MoveUpDown {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+#timeline{
+  display: block;
+  position: absolute;
+  top: 48em;
+}
+#timeline h2{
+  z-index: 1;
+  top: -4em;
+  position: absolute;
+  font-family: 'Lobster', cursive;
+  font-size: 30px;
+ 
+}
+.rule:after {
+
+    border-left: 4px solid rgb(212, 212, 212);
+    height: 650px;
+    content:"";
+    position: absolute;
+    z-index: 0;
+  
+    bottom: 0;
+    left: 50%;
+  
+    transform: translate(-50%);
+}
+
+p{
+  font-family: 'Lobster', cursive;
+  font-size: 20px;
+}
+#timeline h5{
+  font-size: 16px;
+  color: rgb(64, 64, 255);
+}
+/* #timeline hr{
+  min-height: 40em;
+  height: 100%;
+} */
+#timeline hr {
+  
+    position: relative;
+    top: -7px;
+    left: -2em;
+    border: none;
+    height: 2.45px;
+    background: rgb(248, 180, 180);
+    width: 100px;
+   
+
+}
+#timeline i:hover:nth-child(even) {
+  cursor: pointer;
+  color:rgb(248, 180, 180);
+}
+#timeline i:hover:nth-child(odd){
+  cursor: pointer;
+  color:rgb(241, 90, 90);
+}
+#last i:hover:nth-child(even){
+  cursor: pointer;
+  color:rgb(248, 180, 180);
+}
+#last i:hover:nth-child(odd){
+  cursor: pointer;
+  color:rgb(241, 90, 90);
+}
+#last {
+  position: absolute;
+  top: 125em;
+}
+#last h2{
+  font-family: 'Lobster', cursive;
+}
+
+.flex-container {
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: normal;
+}
+
+.flex-items:nth-child(1) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+
+.flex-items:nth-child(2) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+.bubble {
+  position: relative;
+  background: #6c62fe;
+  color: #FFFFFF;
+  
+  font-size: 20px;
+  /* line-height: 120px; */
+  box-shadow: -12px 5px 9px 0px rgba(163, 163, 163, 0.31);
+  text-align: center;
+  width: 250px;
+  height: 70px;
+  border-radius: 0px;
+  padding: 20px;
+  position: absolute;
+  top: 1.6em;
+  font-family: 'Roboto', sans-serif;
+  
+}
+.bubble:after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 0;
+  z-index: 1;
+  border-style: solid;
+  border-color: transparent #6c62fe;
+  border-width: 19px 0 19px 20px;
+  top: 50%;
+  right: -20px;
+  margin-top: -19px;
+  
+}
+
+.b2{
+  margin-top: 10rem;
+  margin-left: 46rem;
+  background: #f47da7;
+}
+.b2:after{
+  left: -20px;
+  transform: rotate(-180deg);
+  border-color: transparent #f47da7;
+  
+}
+body{
+  position: relative;
+}
+footer{
+  background-color: #efefef;
+   margin-top: 115rem;
+   right: 0;
+   bottom: 0;
+   left: 0;
+
+  /* position: absolute;
+  height: 150px;
+  position: fixed; */ 
+  
+  /* position: absolute;
+ 
+
+  padding: 1rem; */
+  /* 
+  text-align: center; */
+
+  
+ 
+}
+footer a{
+
+color:#f53377;
+}
+footer a:hover{
+
+  color:#f76193;
+  }
+
+footer  a:nth-child(2){
+  color:#ff0a0a;
+  
+}
+footer  a:nth-child(2):hover{
+
+  color: #c95757;
+}
+footer  a:nth-child(3){
+  color: #1ad4ec;
+ 
+  
+}
+footer  a:nth-child(3):hover{
+  color:#3527f0;
+  
+}
+/* .timeline {
+  border-left: @line solid @color-primary;
+  border-bottom-right-radius: @radius;
+  border-top-right-radius: @radius;    
+  background: fade(@color-light, 3%);
+  color: fade(white, 80%);
+  font-family: @font-text;  
+  margin: @spacing auto;  
+  letter-spacing: 0.5px;   
+  position: relative;
+  line-height: 1.4em;
+  font-size: 1.03em;   
+  padding: @spacing;   
+  list-style: none;
+  text-align: left;  
+  font-weight: 100;  
+  max-width: 30%; 
+  
+  h1 {
+   font-family: @font-title;
+   letter-spacing: 1.5px;
+   font-weight: 100;
+   font-size: 1.4em;    
+  }
+  
+  h2, h3 {
+   font-family: @font-title;
+   letter-spacing: 1.5px;
+   font-weight: 400;
+   font-size: 1.4em;
+  }
+} */
+
+
+/*
+
+hex codes
+blue :dde7ff
+dark blue : 7d96d9
+pink: f47da7
+dark pink :e3a4b9
+button blue :6c62fe
+*/
