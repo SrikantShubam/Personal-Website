@@ -10,6 +10,10 @@
   overflow: none;
   width: 100%;
 }
+html,body{
+  overflow-x: hidden;
+}
+
 a{
   text-decoration: none;
   color: black;
@@ -156,6 +160,13 @@ a{
 }
 
 p{
+  font-family: 'Roboto', cursive;
+ 
+}
+h5{
+  font-size: 25px;
+}
+h4{
   font-family: 'Lobster', cursive;
   font-size: 20px;
 }
@@ -366,3 +377,55 @@ pink: f47da7
 dark pink :e3a4b9
 button blue :6c62fe
 */
+.banner{
+  display: none;
+}
+@media (max-width:480px)  {
+  #main{
+    margin-top: -3em;
+    z-index: 100;
+  }
+ #svg{
+  width:100%;
+  z-index: 0;
+  opacity: 0;
+}
+
+.banner{
+  display: inline;
+  z-index: 0;
+}
+
+#timeline {
+  position: absolute;
+  top: 50rem;
+}
+.rule{
+  opacity: 0;
+}
+div.d-flex:nth-child(4),div.d-flex:nth-child(3) > h5:nth-child(1){
+  margin-left:1em ;
+}
+
+div.mt-5:nth-child(2){
+  flex-direction: column-reverse !important;
+  
+}
+div.d-flex:nth-child(3){
+  order: 0;
+}
+#last {
+  top: 200em;
+}
+#last .bubble{
+  opacity: 0;
+}
+.mt-md-3 > img:nth-child(1){
+  margin-left: 2.5rem;
+  overflow-x: none;
+}
+footer{
+  margin-top: 190rem;
+}
+
+}
