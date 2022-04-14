@@ -148,7 +148,7 @@ a{
 .rule:after {
 
     border-left: 4px solid rgb(212, 212, 212);
-    height: 650px;
+    height: 660px;
     content:"";
     position: absolute;
     z-index: 0;
@@ -208,7 +208,7 @@ h4{
 }
 #last {
   position: absolute;
-  top: 125em;
+  top: 200em;
 }
 #last h2{
   font-family: 'Lobster', cursive;
@@ -289,7 +289,7 @@ body{
 }
 footer{
   background-color: #efefef;
-   margin-top: 115rem;
+   margin-top: 190rem;
    right: 0;
    bottom: 0;
    left: 0;
@@ -411,11 +411,14 @@ div.mt-5:nth-child(2){
   flex-direction: column-reverse !important;
   
 }
+div.row:nth-child(4){
+  flex-direction: column-reverse !important;
+}
 div.d-flex:nth-child(3){
   order: 0;
 }
 #last {
-  top: 200em;
+  top: 290em;
 }
 #last .bubble{
   opacity: 0;
@@ -425,7 +428,7 @@ div.d-flex:nth-child(3){
   overflow-x: none;
 }
 footer{
-  margin-top: 190rem;
+  margin-top: 280rem;
 }
 
 }
