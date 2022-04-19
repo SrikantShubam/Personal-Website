@@ -13,7 +13,7 @@
     integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="style.css" />
-  <link rel="shortcut icon" href="source/logo2.png" type="image/x-icon">
+  <link rel="icon" href="source/android-chrome-512x512.png">
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
   <title>Portfolio: Srikant Shubham</title>
 </head>
@@ -196,13 +196,16 @@
         <div class="col-md-12">
           <h3 class="my-5">Have Something in mind?</h3>
           <h5 class="mb-3" style="font-size: 17px;">Drop me a message I'll get back to you </h5>
-          <button type="button" class="btn btn-dark custom mt-2 mb-5" style="width:200px;">
+          <button type="button" class="btn btn-dark custom mt-2 mb-5" style="width:200px;"
+          onclick="window.open('https://form.123formbuilder.com/6142915/form','popUpWindow','height=500,width=500,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes');"> 
             Send me a mesasge
           </button>
         </div>
       </div>
 
     </div>
+
+    
 
     <!-- <footer class="mt-5 pt-5">
  
@@ -211,14 +214,13 @@
 
   </section>
 
-  <!-- <footer class="page-footer pt-4">
+  <!-- <footer class="page-footer pt-4">-->
 
   
-  
-  
+
  
 
-</footer> -->
+
   <!-- Footer -->
   <footer class="page-footer font-small blue pt-4">
 
@@ -316,7 +318,12 @@
   </script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="source/scroll.js"></script>
- 
+ <script type="text/javascript">
+   function openWindow(w) {
+    w=window.open("https://form.123formbuilder.com/6142915/my-form");
+    w.focus()
+}
+ </script>
   <script src="main.js"></script>
 
 </body>
