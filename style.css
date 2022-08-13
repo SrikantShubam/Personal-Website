@@ -208,7 +208,7 @@ h4{
 }
 #last {
   position: absolute;
-  top: 200em;
+  top: 220em;
 }
 #last h2{
   font-family: 'Lobster', cursive;
@@ -258,6 +258,10 @@ h4{
   font-family: 'Roboto', sans-serif;
   
 }
+#tableau{
+  width: 36em; 
+  position:absolute;left: -8em;
+}
 .bubble:after {
   content: '';
   position: absolute;
@@ -289,7 +293,7 @@ body{
 }
 footer{
   background-color: #efefef;
-   margin-top: 190rem;
+   margin-top: 200rem;
    right: 0;
    bottom: 0;
    left: 0;
@@ -403,6 +407,14 @@ button blue :6c62fe
 .rule{
   opacity: 0;
 }
+#tableau {
+  width: 25em;
+  left: 0.25em;
+  
+}
+#tableau_text{
+ margin-top: 10em;
+}
 div.d-flex:nth-child(4),div.d-flex:nth-child(3) > h5:nth-child(1){
   margin-left:1em ;
 }
@@ -418,7 +430,7 @@ div.d-flex:nth-child(3){
   order: 0;
 }
 #last {
-  top: 290em;
+  top: 350em;
 }
 #last .bubble{
   opacity: 0;
@@ -428,7 +440,7 @@ div.d-flex:nth-child(3){
   overflow-x: none;
 }
 footer{
-  margin-top: 280rem;
+  margin-top: 335rem;
 }
 
 }
