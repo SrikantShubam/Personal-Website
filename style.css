@@ -19,10 +19,12 @@ a{
   color: black;
 }
 
+
+
 .r-50 {
   border-radius: 50%;
   object-fit: cover;
-  max-width: 14rem;
+  max-width: 15rem;
 }
 
 .content {
@@ -384,7 +386,7 @@ button blue :6c62fe
 .banner{
   display: none;
 }
-@media (max-width:480px)  {
+@media (max-width:412px)  {
   #main{
     margin-top: -3em;
     z-index: 100;
@@ -409,7 +411,8 @@ button blue :6c62fe
 }
 #tableau {
   width: 25em;
-  left: 0.25em;
+  left: 0.0001rem;
+  padding:2rem;
   
 }
 #tableau_text{
@@ -440,7 +443,7 @@ div.d-flex:nth-child(3){
   overflow-x: none;
 }
 footer{
-  margin-top: 335rem;
+  margin-top: 342rem;
 }
 
 }
